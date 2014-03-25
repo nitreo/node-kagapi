@@ -1,0 +1,34 @@
+{
+  "name": "kagapi",
+  "version": "1.0.0",
+  "description": "kagapi is a small package that provides interface to King Arthur's Gold game api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nitreo/node-kagapi.git"
+  },
+  "keywords": [
+    "kag",
+    "king",
+    "arthurs",
+    "gold",
+    "api",
+    "interace"
+  ],
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "author": "sinitreo",
+  "license": "MIT",
+  "dependencies": {
+    "request": ">=2.34.0",
+    "kew": ">=0.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^3.2.0-beta1"
+  }
+}
